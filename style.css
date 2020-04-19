@@ -1,0 +1,141 @@
+/*Colors and fonts*/
+
+body{
+	background-color: #F6F9FC;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover {
+	color: #32325D;
+}
+
+p{
+	text-align: justify;
+}
+
+
+
+/*custom desgins with class*/
+.container{
+	margin: 40px auto;
+	color: rgb(50,50,50);
+	font-family: helvetica;
+	font-size: 17px;
+	width: 700px;
+}
+
+.card-white{
+	background: #FFFFFF;
+    text-align: center;
+    margin: 40px 0px;
+	padding: 10px 40px 40px;
+    box-shadow: 0px 4px 10px 0px rgba(0,0,0,0.1);
+    border-radius: 4px;
+}
+
+#profile{
+	width: 200px
+}
+
+#korea{
+	width: 300px;
+}
+
+#japan{
+	height: 370px;
+}
+
+.img-circle{
+	border-radius: 50%
+}
+
+.btn-blue{
+	background-color: #6B72E1;
+	color: white;
+	padding: 10px 20px;
+	border-radius: 4px;
+}
+.btn-blue:hover{
+	background-color: #32325D;
+	color: rgb(230,230,230);
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;	
+}
+
+.list-inline li{
+	display: inline;
+	margin: 15px;
+}
+
+.fa-facebook-square{
+	color: #4267B2;
+}
+
+.fa-linkedin{
+	color: #0077B5;
+}
+
+.fa-instagram-square{
+	 color: transparent;
+	 background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+	 background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+	 background-clip: text;
+  	 -webkit-background-clip: text;
+}
+
+.list-inline i{
+	font-size: 50px;
+}
+.list-inline i:hover{
+	color: #32325D
+}
+
+/* customs adjustments with id*/
+#introduction p{
+	padding: 30px 0px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+	.container {
+    	width: 600px;
+	}
+	#japan{
+		height: 330px;
+	}
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+	.container {
+		width: 500px;
+	}
+	#korea{
+		width: 300px;
+	}
+	#japan{
+		height: 270px;
+	}
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+	.container{
+		width: 300px;
+	}
+	#korea{
+		width: 200px;
+	}
+	#japan{
+		height: 160px;
+	}
+	.btn-blue{
+		font-size: 14px;
+	}
+}
